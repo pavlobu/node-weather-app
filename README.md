@@ -3,8 +3,8 @@
 A weather forecast app written in JavaScript using
 NodeJS, express.js
 ### third party apis: 
-[https://darksky.net](Darksky.net) -- for address geocode finding by word
-[https://www.mapbox.com/](Mapbox.com) -- for getting weather data for query location
+[Darksky.net](https://darksky.net) -- for address geocode finding by word
+[Mapbox.com](https://www.mapbox.com/) -- for getting weather data for query location
 
 
 # Prerequisites
@@ -30,8 +30,8 @@ DARKSKY_TOKEN=KJDHSFLKJlkj3hkj3hlkJLD
 
 ### don't have tokens?
 Get them for free with non payed subscription form these services accordingly:
-[https://darksky.net](Darksky.net)
-[https://www.mapbox.com/](Mapbox.com)
+[Darksky.net](https://darksky.net) -- for address geocode finding by word
+[Mapbox.com](https://www.mapbox.com/) -- for getting weather data for query location
 
 # Run production mode on local machine
 
@@ -46,7 +46,7 @@ npm run
 When pushed your app to heroku repository,
 you need to set environment varibales using
 `heroku config`
-[https://devcenter.heroku.com/articles/config-vars](More info here)
+[More info here](https://devcenter.heroku.com/articles/config-vars)
 ### Example:
 ```bash
 heroku config:set MAPBOX_TOKEN=l12k3j4ljLKJDh2l3kh4j 
